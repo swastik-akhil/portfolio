@@ -22,10 +22,8 @@ export const PAGE_TITLES = {
 }
 
 export const SOCIALS = {
-  GH: 'https://github.com/tushar-glitch',
-  // IG: 'https://www.instagram.com/glitch.tushar',
+  GH: 'https://github.com/swastik-akhil',
   IN: 'https://www.linkedin.com/in/akhil-agrawal-soccer',
-  // WA: 'https://api.whatsapp.com/send?phone=9149329927&text=%3CChatMe%20%2F%3E',
 }
 
 export const RESUME_URL = 'https://drive.google.com/file/d/1vw6DKlzKer0K4zerZ_Qnwp4ntFvV1Ur4/view?usp=sharing'
