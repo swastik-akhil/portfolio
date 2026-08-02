@@ -44,10 +44,6 @@ export default function ContactPage() {
                 +91-8077795820
               </a>
               <br />
-              {/* <span>WhatsApp: </span>
-              <a href={SOCIALS.WA} target="_blank" rel="noopener" className="hover:text-yellow-600">
-                +91-8077795820
-              </a> */}
             </p>
           </div>
         </div>
