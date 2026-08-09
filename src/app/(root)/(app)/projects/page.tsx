@@ -6,9 +6,9 @@ import getProjects from './getProjects'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Projects - Dede Ariansya',
+  title: 'Projects - Akhil Agrawal',
   openGraph: {
-    title: 'Projects - Dede Ariansya',
+    title: 'Projects - Akhil Agrawal',
     url: '/projects',
   },
   alternates: {

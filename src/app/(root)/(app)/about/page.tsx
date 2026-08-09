@@ -8,9 +8,9 @@ import PageTitle from '../components/PageTitle'
 
 
 export const metadata: Metadata = {
-  title: 'About - Dede Ariansya',
+  title: 'About - Akhil Agrawal',
   openGraph: {
-    title: 'About - Dede Ariansya',
+    title: 'About - Akhil Agrawal',
     url: '/about',
   },
   alternates: {
@@ -24,7 +24,7 @@ export default function AboutPage() {
       <PageTitle title="About" />
       <div className="md:flex">
         <div className="mb-5 md:w-56">
-          <Image src={tushar} alt="Foto dede ariansya" className="block w-full" placeholder="blur" />
+          <Image src={tushar} alt="Foto Akhil Agrawal" className="block w-full" placeholder="blur" />
         </div>
         <div className="md:flex-1 md:pl-6">
           <h2 className="mb-2 text-xl font-bold">I’m Akhil Agrawal</h2>

@@ -6,9 +6,9 @@ import BlogPostItem from './components/BlogPostItem'
 
 
 export const metadata: Metadata = {
-  title: 'Blog - Dede Ariansya',
+  title: 'Blog - Akhil Agrawal',
   openGraph: {
-    title: 'Blog - Dede Ariansya',
+    title: 'Blog - Akhil Agrawal',
     url: '/blog',
   },
   alternates: {

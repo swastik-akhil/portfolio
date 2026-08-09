@@ -6,9 +6,9 @@ import ContactForm from './components/ContactForm'
 
 
 export const metadata: Metadata = {
-  title: 'Contact - Dede Ariansya',
+  title: 'Contact - Akhil Agrawal',
   openGraph: {
-    title: 'Contact - Dede Ariansya',
+    title: 'Contact - Akhil Agrawal',
     url: '/contact',
   },
   alternates: {
