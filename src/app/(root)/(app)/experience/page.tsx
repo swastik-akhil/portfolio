@@ -23,8 +23,8 @@ const experiences: IExperience[] = [
     startDate: 'April 2026',
     endDate: 'July 2026',
     description: [
-      'Redesigned the GATEOverflow quiz portal to closely replicate the official GATE examination interface.',
-      'Enhanced the experience of a platform used by 260,000+ GATE aspirants through an intuitive and responsive interface.',
+      'Redeveloped the GATEOverflow test portal to closely match the official GATE examination interface, creating afamiliar experience for GATE aspirants and now used by 260,000+ students, including 10,000+ daily.',
+      ' Fixed bugs, resolved user-reported issues, and delivered regular improvements across the GateOverflow platform.',
     ],
     // technologies: ['Ruby', 'Ruby on Rails', 'React', 'AWS', 'PostgreSQL', 'Docker', 'Sidekiq', 'Redis'],
   },
@@ -49,10 +49,9 @@ const experiences: IExperience[] = [
     startDate: 'August 2024',
     endDate: 'November 2024',
     description: [
-      'Developed the E-KYC feature by integrating Peer.js for real-time video communication and AWS S3 for secure, scalable document storage.',
-      'Implemented a cost-effective E-KYC workflow, resulting in substantial infrastructure cost savings.',
-      'Automated EMI collection using a serverless architecture with AWS Lambda, improving reliability and reducing manual intervention.',
-      'Developed REST APIs and responsive user interfaces to deliver a seamless user experience.'
+      ' Developed E-KYC feature, integrated an open source library Peer.js for real-time video communication and leveraged AWS S3 for secure and scalable data storage. This implementation enabled substantial cost savings ',
+      'Automated EMI collection using a serverless architecture with AWS Lambda, improving reliability and reducing manual follow-ups.',
+      'Made improvements based on requirements and feedback, helping the platform better support daily business needs.'
     ],
     // technologies: ['Node.js', 'Express.js', 'React.js', 'MongoDB', 'Redis', 'Socket.io', 'HLS'],
   },
