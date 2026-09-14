@@ -1,4 +1,4 @@
-import { FiBookOpen, FiBriefcase, FiClipboard, FiGlobe, FiHome, FiMail, FiUser } from 'react-icons/fi'
+import { FiBookOpen, FiBriefcase, FiClipboard, FiGlobe, FiHome, FiImage, FiMail, FiUser } from 'react-icons/fi'
 
 export const HOST = process.env.NEXT_PUBLIC_HOST || 'http://localhost:3001'
 
@@ -7,6 +7,7 @@ export const NAV_ITEMS = [
   { path: '/about', label: 'About', Icon: FiUser },
   { path: '/experience', label: 'Experience', Icon: FiBriefcase },
   { path: '/projects', label: 'Projects', Icon: FiClipboard },
+  { path: '/art', label: 'Art', Icon: FiImage },
   { path: '/contact', label: 'Contact', Icon: FiMail },
   // { path: '/guestbook', label: 'Guestbook', Icon: FiBookOpen },
 ]
@@ -17,6 +18,7 @@ export const PAGE_TITLES = {
   '/experience': 'Experience',
   '/blog': 'Blog',
   '/projects': 'Projects',
+  '/art': 'Art',
   '/contact': 'Contact',
   // '/guestbook': 'G-book',
 }
