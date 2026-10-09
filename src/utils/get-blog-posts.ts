@@ -45,3 +45,7 @@ function getMDXData(dir: string): IPost[] {
 export function getBlogPosts(): IPost[] {
   return getMDXData(path.join(process.cwd(), 'content'))
 }
+
+export function getBlogPost(slug: string): IPost | undefined {
+  return getBlogPosts().find((post) => post.slug === slug)
+}

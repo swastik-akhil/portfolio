@@ -1,57 +1,50 @@
+import { HOST } from '@/constans/common'
 import { getBlogPosts } from '@/utils/get-blog-posts'
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://akhilagrawal.site'
   const posts = getBlogPosts()
 
   const staticRoutes = [
     {
-      url: baseUrl,
-      lastModified: new Date(),
+      url: HOST,
       changeFrequency: 'weekly' as const,
       priority: 1,
     },
     {
-      url: `${baseUrl}/about`,
-      lastModified: new Date(),
+      url: `${HOST}/about`,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
+      url: `${HOST}/blog`,
       changeFrequency: 'weekly' as const,
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/projects`,
-      lastModified: new Date(),
+      url: `${HOST}/experience`,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/art`,
-      lastModified: new Date(),
+      url: `${HOST}/projects`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${HOST}/art`,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      url: `${HOST}/contact`,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/guestbook`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.6,
     },
   ]
 
   const blogRoutes = posts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
+    url: `${HOST}/blog/${post.slug}`,
     lastModified: new Date(post.metadata.publishedAt),
     changeFrequency: 'monthly' as const,
     priority: 0.7,

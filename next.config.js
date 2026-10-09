@@ -5,7 +5,9 @@ const nextConfig = {
     // Ignore ESLint errors during production builds — quick workaround
     ignoreDuringBuilds: true,
   },
-  output: 'export',
+  // Next 14's dev server cannot serve metadata routes such as sitemap.ts when
+  // static export is forced. Production builds still export the `out` folder.
+  ...(process.env.NODE_ENV === 'production' ? { output: 'export' } : {}),
   images: {
     unoptimized: true, // disable image optimization for static export
   },

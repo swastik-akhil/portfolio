@@ -1,6 +1,9 @@
 import { FiBookOpen, FiBriefcase, FiClipboard, FiGlobe, FiHome, FiImage, FiMail, FiUser } from 'react-icons/fi'
 
-export const HOST = process.env.NEXT_PUBLIC_HOST || 'http://localhost:3001'
+// Keep the public origin in one place so canonical metadata, robots.txt, and
+// sitemap.xml always refer to the same deployed site. A local override remains
+// available for development previews.
+export const HOST = (process.env.NEXT_PUBLIC_HOST || 'https://akhilag.me').replace(/\/+$/, '')
 
 export const NAV_ITEMS = [
   { path: '/', label: 'Home', Icon: FiHome },
